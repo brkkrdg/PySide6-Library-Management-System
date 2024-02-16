@@ -1,7 +1,3 @@
-Tabii, işte İngilizce olarak bir README.md dosyası örneği:
-
----
-
 # Library Management System
 
 This project is a Library Management System application created using the PySide6 library. Users can use this application to list the books available in the library, add new books, and remove existing books.
