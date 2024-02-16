@@ -44,7 +44,7 @@ class MainWindow(QMainWindow):
         self.setCentralWidget(self.central_widget)
 
         self.layout = QVBoxLayout()
-        self.layout.setSpacing(20)  # Add spacing between widgets
+        self.layout.setSpacing(20)
         self.central_widget.setLayout(self.layout)
 
         self.label = QLabel("Welcome to Library Management System")
