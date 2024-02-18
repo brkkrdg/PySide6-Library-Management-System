@@ -1,61 +1,50 @@
-# Library Management System
-
-This project is a Library Management System application created using the PySide6 library. Users can use this application to list the books available in the library, add new books, and remove existing books.
-
-## Technologies Used
-
-- Python 3
-- PySide6
-
-## Installation
-
-1. Clone the project:
+Harika! GitHub'daki projenizi inceledim. Kodunuzun olduğu repoya bir README dosyası eklemek iyi bir adım olacaktır. İşte README dosyası için bir öneri:
 
 ```
-git clone https://github.com/username/project-name.git
+# PySide6 Library Management System
+
+This project implements a simple Library Management System with a graphical user interface using PySide6.
+
+## Features
+
+- List available books
+- Add new books
+- Remove existing books
+- Quit the application
+
+## Usage
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
 ```
 
 2. Navigate to the project directory:
 
-```
-cd project-name
-```
-
-3. Install the required Python packages:
-
-```
-pip install -r requirements.txt
+```bash
+cd PySide6-Library-Management-System
 ```
 
-4. Start the application by running the `main.py` file:
+3. Run the application:
 
+```bash
+python GUI.py
 ```
-python main.py
-```
 
-## Usage
-
-Upon launching the application, a welcome message will be displayed in the main window. The main window contains three buttons: "List Books", "Add Book", and "Remove Book".
-
-- Clicking the "List Books" button displays the list of current books.
-- Clicking the "Add Book" button opens a dialog box to add a new book.
-- Clicking the "Remove Book" button opens a dialog box to remove a book.
-
-After each operation, a feedback message is displayed in a text box at the bottom of the screen.
+4. Interact with the graphical interface to manage the library:
+   - Click on "List Books" to display available books.
+   - Click on "Add Book" to add a new book.
+   - Click on "Remove Book" to remove an existing book.
+   - Click on "Quit" to exit the application.
 
 ## Contributing
 
-Anyone interested in contributing to the project can submit a pull request on GitHub. To contribute to the project, follow these steps:
-
-1. Fork this repository.
-2. Clone the repository to your local machine: `git clone https://github.com/username/project-name.git`
-3. Add a new feature or fix a bug.
-4. Create a pull request to submit your changes.
+Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+```
 
----
-
-This README.md file provides basic information about the project's installation, usage, contributing guidelines, and license. You can customize this template by adding project-specific details.
+Bu README dosyası, projenin temel özelliklerini, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini içerir. Dosyayı projenizin kök dizinine `README.md` adıyla kaydedebilirsiniz. Böylelikle projenizi daha iyi tanıtabilir ve katkı sağlamak isteyenler için yol gösterici olabilirsiniz.
