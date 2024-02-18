@@ -19,9 +19,10 @@ bir kitap ekleyebilirler.
 2. Gerekli paketleri yüklemek için terminale aşağıdaki komutu girin:
 
 
-```sh
-   pip install PySide6
-   ```
+```
+sh
+pip install PySide6
+```
 
 
 3. Proje dosyalarını bu depodan indirin.
@@ -29,7 +30,7 @@ bir kitap ekleyebilirler.
 ## Kullanım
 
 1. Terminal veya komut istemcisinde proje dizinine gidin.
-2. Ana program dosyası olan `library_management_system.py` dosyasını çalıştırın.
+2. Ana program dosyası olan `GUI.py` dosyasını çalıştırın.
 3. Kütüphane Yönetim Sistemi penceresi açılacak ve kullanıcılar arayüz üzerinden
 kitap ekleme, listeleme, kaldırma gibi işlemleri gerçekleştirebileceklerdir.
 
