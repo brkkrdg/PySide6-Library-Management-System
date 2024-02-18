@@ -1,18 +1,27 @@
-Harika! GitHub'daki projenizi inceledim. Kodunuzun olduğu repoya bir README dosyası eklemek iyi bir adım olacaktır. İşte README dosyası için bir öneri:
-
 ```
 # PySide6 Library Management System
 
-This project implements a simple Library Management System with a graphical user interface using PySide6.
+This project is a simple Library Management System with a graphical user interface implemented using PySide6, a Python binding for Qt. The application allows users to manage a library by listing available books, adding new books, and removing existing books.
 
 ## Features
 
-- List available books
-- Add new books
-- Remove existing books
-- Quit the application
+- List available books with their titles, authors, release years, and number of pages.
+- Add new books to the library by providing title, author, release year, and number of pages.
+- Remove existing books from the library by providing the title of the book to be removed.
+- Responsive user interface with intuitive buttons and input fields.
 
-## Usage
+## Screenshots
+
+[Insert screenshots of the application here]
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.x
+- PySide6
+
+### Installation
 
 1. Clone the repository:
 
@@ -26,13 +35,21 @@ git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
 cd PySide6-Library-Management-System
 ```
 
-3. Run the application:
+3. Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Usage
+
+1. Run the application:
 
 ```bash
 python GUI.py
 ```
 
-4. Interact with the graphical interface to manage the library:
+2. Interact with the graphical interface to manage the library:
    - Click on "List Books" to display available books.
    - Click on "Add Book" to add a new book.
    - Click on "Remove Book" to remove an existing book.
@@ -47,4 +64,4 @@ Contributions are welcome! If you find any issues or have suggestions for improv
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-Bu README dosyası, projenin temel özelliklerini, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini içerir. Dosyayı projenizin kök dizinine `README.md` adıyla kaydedebilirsiniz. Böylelikle projenizi daha iyi tanıtabilir ve katkı sağlamak isteyenler için yol gösterici olabilirsiniz.
+Bu README dosyası, projenin özelliklerini, nasıl kullanılacağını, katkıda bulunma yönergelerini ve lisans bilgisini açıklar. Ayrıca, proje dizinine ekran görüntüleri ekleyerek kullanıcıların projeyi görsel olarak incelemesine olanak tanır.
