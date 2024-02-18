@@ -1,66 +1,37 @@
-Tabii, işte daha farklı bir README dosyası:
-
 ```
-<h1 align="center">PySide6 Kütüphane Yönetim Sistemi</h1>
+# Kütüphane Yönetim Sistemi
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/brkkrdg/PySide6-Library-Management-System" alt="License">
-  <img src="https://img.shields.io/github/issues/brkkrdg/PySide6-Library-Management-System" alt="Issues">
-  <img src="https://img.shields.io/github/forks/brkkrdg/PySide6-Library-Management-System" alt="Forks">
-  <img src="https://img.shields.io/github/stars/brkkrdg/PySide6-Library-Management-System" alt="Stars">
-</p>
-
-<p align="center">PySide6 kullanılarak geliştirilmiş, kullanıcı dostu bir Kütüphane Yönetim Sistemi.</p>
-
-## İçindekiler
-
-- [Özellikler](#özellikler)
-- [Kurulum](#kurulum)
-- [Kullanım](#kullanım)
-- [Katkıda Bulunma](#katkıda-bulunma)
-- [Lisans](#lisans)
+Bu proje, basit bir kütüphane yönetim sistemi sağlar. Kullanıcılar, kütüphaneye kitap ekleyebilir,
+kitapları listeleyebilir ve kütüphaneden kitap kaldırabilirler.
+PySide6 kullanılarak bir grafik arayüzü oluşturulmuştur.
 
 ## Özellikler
 
-- Mevcut kitapları başlıkları, yazarları, yayın yılları ve sayfa sayılarıyla listeleyin.
-- Yeni kitaplar ekleyin veya mevcut kitapları kütüphaneden kaldırın.
-- Duyarlı ve sezgisel kullanıcı arayüzü ile kolay kullanım.
+- Kitap ekleme: Kullanıcılar kitap başlığı, yazarı, yayın yılı ve sayfa sayısıyla bir kitap ekleyebilirler.
+- Kitap listeleme: Kütüphanedeki tüm kitapları listeleme.
+- Kitap kaldırma: Kullanıcılar kütüphaneden bir kitabı başlıkla kaldırabilirler.
+- Kullanıcı dostu arayüz: Basit ve kullanıcı dostu bir grafik arayüzü.
 
 ## Kurulum
 
-1. Depoyu klonlayın:
-
-   ```sh
-   git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
-   ```
-
-2. Proje dizinine gidin:
-
-   ```sh
-   cd PySide6-Library-Management-System
-   ```
-
-3. Bağımlılıkları yükleyin:
-
-   ```sh
-   pip install -r requirements.txt
-   ```
+1. Python 3.6 veya daha üst sürümünü yükleyin.
+2. Gerekli paketleri yüklemek için terminale aşağıdaki komutu girin:
+    ```
+    pip install PySide6
+    ```
+3. Proje dosyalarını bu depodan indirin.
 
 ## Kullanım
 
-Uygulamayı başlatmak için:
+1. Terminal veya komut istemcisinde proje dizinine gidin.
+2. Ana program dosyası olan `library_management_system.py` dosyasını çalıştırın.
+3. Kütüphane Yönetim Sistemi penceresi açılacak ve kullanıcılar arayüz üzerinden kitap ekleme, listeleme, kaldırma gibi işlemleri gerçekleştirebileceklerdir.
 
-```sh
-python GUI.py
-```
+## Ekran Görüntüleri
 
-## Katkıda Bulunma
-
-Projeye katkı sağlamak isterseniz, lütfen bir konu açın veya bir çekme isteği gönderin. Katkılarınızı bekliyoruz!
-
-## Lisans
-
-Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
-```
-
-Bu README dosyası, içindekiler bölümü ile birlikte başlıklar, bağlantılar ve açıklamalar kullanarak daha organize ve okunabilir bir yapıya sahiptir. Markdown dilinin özelliklerini kullanarak projenizin özelliklerini, kurulumunu, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini açıkça belirtir. Ayrıca, GitHub göstergeleri (shields) ile proje hakkında ek bilgiler sağlanmıştır.
+- ![Ana Pencere](<img width="712" alt="image" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/b3b6ca56-aa42-4212-be88-48aa3d0ca606">
+)
+- ![Kitap Ekleme Dialogu](<img width="412" alt="image" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/296cc223-e043-4bc3-b317-dc018c2d779f">
+)
+- ![Kitap Kaldırma Dialogu](<img width="412" alt="image" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/ef6db140-9f83-45cf-a45e-5faf6a3519ce">
+)
