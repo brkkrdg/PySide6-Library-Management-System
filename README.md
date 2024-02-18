@@ -1,4 +1,4 @@
-```
+
 # Kütüphane Yönetim Sistemi
 
 Bu proje, basit bir kütüphane yönetim sistemi sağlar. Kullanıcılar, kütüphaneye kitap ekleyebilir,
@@ -17,11 +17,13 @@ bir kitap ekleyebilirler.
 
 1. Python 3.6 veya daha üst sürümünü yükleyin.
 2. Gerekli paketleri yüklemek için terminale aşağıdaki komutu girin:
-```
-    ```
-    pip install PySide6
-    ```
-```
+
+
+sh
+Copy code
+python GUI.py
+
+
 3. Proje dosyalarını bu depodan indirin.
 
 ## Kullanım
@@ -30,5 +32,5 @@ bir kitap ekleyebilirler.
 2. Ana program dosyası olan `library_management_system.py` dosyasını çalıştırın.
 3. Kütüphane Yönetim Sistemi penceresi açılacak ve kullanıcılar arayüz üzerinden
 kitap ekleme, listeleme, kaldırma gibi işlemleri gerçekleştirebileceklerdir.
-```
+
 Burak Karadağ
