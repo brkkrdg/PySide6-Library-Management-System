@@ -1,67 +1,117 @@
+Tabii, işte Türkçe bir README dosyası:
+
 ```
-# PySide6 Library Management System
+# PySide6 Kütüphane Yönetim Sistemi
 
-This project is a simple Library Management System with a graphical user interface implemented using PySide6, a Python binding for Qt. The application allows users to manage a library by listing available books, adding new books, and removing existing books.
+Bu proje, PySide6 kullanılarak gerçekleştirilmiş basit bir Kütüphane Yönetim Sistemi'ni içerir. PySide6, Qt için Python bağlamasıdır.
 
-## Features
+## Özellikler
 
-- List available books with their titles, authors, release years, and number of pages.
-- Add new books to the library by providing title, author, release year, and number of pages.
-- Remove existing books from the library by providing the title of the book to be removed.
-- Responsive user interface with intuitive buttons and input fields.
+- Kütüphanedeki mevcut kitapları başlıkları, yazarları, yayın yılları ve sayfa sayılarıyla listeleyin.
+- Başlık, yazar, yayın yılı ve sayfa sayısı sağlayarak kütüphaneye yeni kitaplar ekleyin.
+- Kaldırılacak kitabın başlığını sağlayarak mevcut kitapları kütüphaneden kaldırın.
+- Kullanıcı arayüzü, sezgisel düğmeler ve giriş alanları ile duyarlıdır.
 
-## Screenshots
+## Başlangıç
 
-[Insert screenshots of the application here]
-
-## Getting Started
-
-### Prerequisites
+### Önkoşullar
 
 - Python 3.x
 - PySide6
 
-### Installation
+### Kurulum
 
-1. Clone the repository:
+1. Depoyu klonlayın:
 
 ```bash
 git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
 ```
 
-2. Navigate to the project directory:
+2. Proje dizinine gidin:
 
 ```bash
 cd PySide6-Library-Management-System
 ```
 
-3. Install dependencies:
+3. Bağımlılıkları yükleyin:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Usage
+### Kullanım
 
-1. Run the application:
+1. Uygulamayı çalıştırın:
 
 ```bash
 python GUI.py
 ```
 
-2. Interact with the graphical interface to manage the library:
-   - Click on "List Books" to display available books.
-   - Click on "Add Book" to add a new book.
-   - Click on "Remove Book" to remove an existing book.
-   - Click on "Quit" to exit the application.
+2. Kütüphaneyi yönetmek için grafik arayüzüyle etkileşime geçin:
+   - Mevcut kitapları görüntülemek için "Kitapları Listele" düğmesine tıklayın.
+   - Yeni bir kitap eklemek için "Kitap Ekle" düğmesine tıklayın.
+   - Varolan bir kitabı kaldırmak için "Kitap Kaldır" düğmesine tıklayın.
+   - Uygulamadan çıkmak için "Çıkış" düğmesine tıklayın.
 
-## Contributing
+## Katkıda Bulunma
 
-Contributions are welcome! If you find any issues or have suggestions for improvement, please open an issue or create a pull request.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+Katkılarınızı bekliyoruz! Herhangi bir sorun bulursanız veya iyileştirme önerileriniz varsa, bir sorun açın veya bir çekme isteği oluşturun.
 ```
 
-Bu README dosyası, projenin özelliklerini, nasıl kullanılacağını, katkıda bulunma yönergelerini ve lisans bilgisini açıklar. Ayrıca, proje dizinine ekran görüntüleri ekleyerek kullanıcıların projeyi görsel olarak incelemesine olanak tanır.
+Bu README dosyası, projenin özelliklerini, nasıl kullanılacağını ve katkıda bulunma yönergelerini Türkçe olarak açıklar. Lisans bilgisi içermez. Lisans bilgisi olmayan bir README dosyası kullanmak tamamen geçerlidir, ancak genellikle projenizi paylaştığınızda hangi lisans altında olduğunu belirtmek önerilir.Tabii, işte Türkçe bir README dosyası:
+
+```
+# PySide6 Kütüphane Yönetim Sistemi
+
+Bu proje, PySide6 kullanılarak gerçekleştirilmiş basit bir Kütüphane Yönetim Sistemi'ni içerir. PySide6, Qt için Python bağlamasıdır.
+
+## Özellikler
+
+- Kütüphanedeki mevcut kitapları başlıkları, yazarları, yayın yılları ve sayfa sayılarıyla listeleyin.
+- Başlık, yazar, yayın yılı ve sayfa sayısı sağlayarak kütüphaneye yeni kitaplar ekleyin.
+- Kaldırılacak kitabın başlığını sağlayarak mevcut kitapları kütüphaneden kaldırın.
+- Kullanıcı arayüzü, sezgisel düğmeler ve giriş alanları ile duyarlıdır.
+
+## Başlangıç
+
+### Önkoşullar
+
+- Python 3.x
+- PySide6
+
+### Kurulum
+
+1. Depoyu klonlayın:
+
+```bash
+git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
+```
+
+2. Proje dizinine gidin:
+
+```bash
+cd PySide6-Library-Management-System
+```
+
+3. Bağımlılıkları yükleyin:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Kullanım
+
+1. Uygulamayı çalıştırın:
+
+```bash
+python GUI.py
+```
+
+2. Kütüphaneyi yönetmek için grafik arayüzüyle etkileşime geçin:
+   - Mevcut kitapları görüntülemek için "Kitapları Listele" düğmesine tıklayın.
+   - Yeni bir kitap eklemek için "Kitap Ekle" düğmesine tıklayın.
+   - Varolan bir kitabı kaldırmak için "Kitap Kaldır" düğmesine tıklayın.
+   - Uygulamadan çıkmak için "Çıkış" düğmesine tıklayın.
+
+
+```
