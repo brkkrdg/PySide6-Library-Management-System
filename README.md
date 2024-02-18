@@ -20,7 +20,6 @@ bir kitap ekleyebilirler.
 
 
 ```
-sh
 pip install PySide6
 ```
 
