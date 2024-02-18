@@ -17,9 +17,11 @@ bir kitap ekleyebilirler.
 
 1. Python 3.6 veya daha üst sürümünü yükleyin.
 2. Gerekli paketleri yüklemek için terminale aşağıdaki komutu girin:
+```
     ```
     pip install PySide6
     ```
+```
 3. Proje dosyalarını bu depodan indirin.
 
 ## Kullanım
