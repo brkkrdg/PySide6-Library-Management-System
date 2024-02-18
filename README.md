@@ -19,9 +19,9 @@ bir kitap ekleyebilirler.
 2. Gerekli paketleri yüklemek için terminale aşağıdaki komutu girin:
 
 
-sh
-Copy code
-python GUI.py
+```sh
+   pip install PySide6
+   ```
 
 
 3. Proje dosyalarını bu depodan indirin.
