@@ -1,14 +1,24 @@
-Tabii, işte Markdown dilinde daha düzenli bir README dosyası:
+Tabii, işte daha farklı bir README dosyası:
 
 ```
-# PySide6 Kütüphane Yönetim Sistemi
+<h1 align="center">PySide6 Kütüphane Yönetim Sistemi</h1>
 
-![License](https://img.shields.io/github/license/brkkrdg/PySide6-Library-Management-System)
-![Issues](https://img.shields.io/github/issues/brkkrdg/PySide6-Library-Management-System)
-![Forks](https://img.shields.io/github/forks/brkkrdg/PySide6-Library-Management-System)
-![Stars](https://img.shields.io/github/stars/brkkrdg/PySide6-Library-Management-System)
+<p align="center">
+  <img src="https://img.shields.io/github/license/brkkrdg/PySide6-Library-Management-System" alt="License">
+  <img src="https://img.shields.io/github/issues/brkkrdg/PySide6-Library-Management-System" alt="Issues">
+  <img src="https://img.shields.io/github/forks/brkkrdg/PySide6-Library-Management-System" alt="Forks">
+  <img src="https://img.shields.io/github/stars/brkkrdg/PySide6-Library-Management-System" alt="Stars">
+</p>
 
-PySide6 kullanılarak geliştirilmiş basit bir Kütüphane Yönetim Sistemi. Qt için Python bağlaması olan PySide6, modern ve etkileyici bir kullanıcı arayüzü sunar.
+<p align="center">PySide6 kullanılarak geliştirilmiş, kullanıcı dostu bir Kütüphane Yönetim Sistemi.</p>
+
+## İçindekiler
+
+- [Özellikler](#özellikler)
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Katkıda Bulunma](#katkıda-bulunma)
+- [Lisans](#lisans)
 
 ## Özellikler
 
@@ -16,19 +26,31 @@ PySide6 kullanılarak geliştirilmiş basit bir Kütüphane Yönetim Sistemi. Qt
 - Yeni kitaplar ekleyin veya mevcut kitapları kütüphaneden kaldırın.
 - Duyarlı ve sezgisel kullanıcı arayüzü ile kolay kullanım.
 
-## Başlangıç
+## Kurulum
 
-### Kurulum
+1. Depoyu klonlayın:
 
-```
-git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
-cd PySide6-Library-Management-System
-pip install -r requirements.txt
-```
+   ```sh
+   git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
+   ```
 
-### Kullanım
+2. Proje dizinine gidin:
 
-```
+   ```sh
+   cd PySide6-Library-Management-System
+   ```
+
+3. Bağımlılıkları yükleyin:
+
+   ```sh
+   pip install -r requirements.txt
+   ```
+
+## Kullanım
+
+Uygulamayı başlatmak için:
+
+```sh
 python GUI.py
 ```
 
@@ -41,4 +63,4 @@ Projeye katkı sağlamak isterseniz, lütfen bir konu açın veya bir çekme ist
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
 ```
 
-Bu Markdown biçimlendirmesi, GitHub'un otomatik olarak yorumlayabileceği ve düzgün bir şekilde görüntüleyebileceği bir formatta yazılmıştır. Projenizin özelliklerini, kurulumunu, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini basit ve düzenli bir şekilde gösterir. Ayrıca, projenizin lisansı ve diğer önemli bilgiler için gösterge bağlantıları (shields) eklenmiştir.
+Bu README dosyası, içindekiler bölümü ile birlikte başlıklar, bağlantılar ve açıklamalar kullanarak daha organize ve okunabilir bir yapıya sahiptir. Markdown dilinin özelliklerini kullanarak projenizin özelliklerini, kurulumunu, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini açıkça belirtir. Ayrıca, GitHub göstergeleri (shields) ile proje hakkında ek bilgiler sağlanmıştır.
