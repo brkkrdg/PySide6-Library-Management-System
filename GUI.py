@@ -60,7 +60,7 @@ class MainWindow(QMainWindow):
         self.buttons_layout = QVBoxLayout()
         self.layout.addLayout(self.buttons_layout)
 
-        self.list_button = QPushButton(QIcon("icons/list_icon.ico"), " List Books")
+        self.list_button = QPushButton(QIcon("list_icon.ico"), " List Books")
         self.apply_button_animation(self.list_button)
         self.list_button.setStyleSheet("QPushButton { background-color: #313233; color: white; border-radius: 15px; }"
                                        "QPushButton:hover { background-color: #2980b9; }")
@@ -70,7 +70,7 @@ class MainWindow(QMainWindow):
         self.list_button.clicked.connect(self.list_books)
         self.buttons_layout.addWidget(self.list_button)
 
-        self.add_button = QPushButton(QIcon("icons/add_book_icon.ico"), " Add Book")
+        self.add_button = QPushButton(QIcon("add_book_icon.ico"), " Add Book")
         self.apply_button_animation(self.add_button)
         self.add_button.setStyleSheet("QPushButton { background-color: #313233; color: white; border-radius: 15px; }"
                                       "QPushButton:hover { background-color: #27ae60; }")
@@ -80,7 +80,7 @@ class MainWindow(QMainWindow):
         self.add_button.clicked.connect(self.add_book_dialog)
         self.buttons_layout.addWidget(self.add_button)
 
-        self.remove_button = QPushButton(QIcon("icons/book_remove_icon.ico"), " Remove Book")
+        self.remove_button = QPushButton(QIcon("book_remove_icon.ico"), " Remove Book")
         self.apply_button_animation(self.remove_button)
         self.remove_button.setStyleSheet("QPushButton { background-color: #313233; color: white; border-radius: 15px; }"
                                          "QPushButton:hover { background-color: #c0392b; }")
@@ -90,7 +90,7 @@ class MainWindow(QMainWindow):
         self.remove_button.clicked.connect(self.remove_book_dialog)
         self.buttons_layout.addWidget(self.remove_button)
 
-        self.quit_button = QPushButton(QIcon("icons/exit_icon.ico"), " Quit")
+        self.quit_button = QPushButton(QIcon("exit_icon.ico"), " Quit")
         self.apply_button_animation(self.quit_button)
         self.quit_button.setStyleSheet("QPushButton { background-color: #ed6a5e; color: white; border-radius: 15px; }"
                                        "QPushButton:hover { background-color: #f39c12; }")
@@ -153,7 +153,7 @@ class AddBookDialog(QDialog):
         super().__init__(parent)
 
         self.setWindowTitle("Add Book")
-        self.setWindowIcon(QIcon("icons/add_book_icon.ico"))  # İkon ekleniyor
+        self.setWindowIcon(QIcon("add_book_icon.ico"))
         self.setGeometry(200, 200, 300, 200)
 
         self.layout = QVBoxLayout(self)
@@ -174,7 +174,7 @@ class AddBookDialog(QDialog):
         self.pages_edit.setPlaceholderText("Enter number of pages")
         self.layout.addWidget(self.pages_edit)
 
-        self.add_button = QPushButton(QIcon("icons/add_book_icon.ico"), "Add")
+        self.add_button = QPushButton(QIcon("add_book_icon.ico"),"Add")
         self.add_button.setStyleSheet("QPushButton { background-color: #313233; color: white; border-radius: 15px; }"
                                       "QPushButton:hover { background-color: #27ae60; }")
         self.add_button.setFont(QFont("Arial", 12))
@@ -203,7 +203,7 @@ class RemoveBookDialog(QDialog):
         super().__init__(parent)
 
         self.setWindowTitle("Remove Book")
-        self.setWindowIcon(QIcon("icons/book_remove_icon.ico"))
+        self.setWindowIcon(QIcon("remove_book_icon.ico"))  # İkon ekleniyor
         self.setGeometry(200, 200, 300, 100)
 
         self.layout = QVBoxLayout(self)
@@ -212,7 +212,7 @@ class RemoveBookDialog(QDialog):
         self.title_edit.setPlaceholderText("Enter book title")
         self.layout.addWidget(self.title_edit)
 
-        self.remove_button = QPushButton(QIcon("icons/book_remove_icon.ico"), "Remove")
+        self.remove_button = QPushButton(QIcon("book_remove_icon.ico"),"Remove")
         self.remove_button.setStyleSheet("QPushButton { background-color: #313233; color: white; border-radius: 15px; }"
                                          "QPushButton:hover { background-color: #c0392b; }")
         self.remove_button.setFont(QFont("Arial", 12))
