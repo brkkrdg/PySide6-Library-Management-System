@@ -1,18 +1,14 @@
-Tabii, işte daha profesyonel ve klas bir README dosyası:
+Tabii, işte Markdown dilinde daha düzenli bir README dosyası:
 
 ```
-<h1 align="center">PySide6 Kütüphane Yönetim Sistemi</h1>
+# PySide6 Kütüphane Yönetim Sistemi
 
-<p align="center">
-  <img src="https://img.shields.io/github/license/brkkrdg/PySide6-Library-Management-System" alt="License">
-  <img src="https://img.shields.io/github/issues/brkkrdg/PySide6-Library-Management-System" alt="Issues">
-  <img src="https://img.shields.io/github/forks/brkkrdg/PySide6-Library-Management-System" alt="Forks">
-  <img src="https://img.shields.io/github/stars/brkkrdg/PySide6-Library-Management-System" alt="Stars">
-</p>
+![License](https://img.shields.io/github/license/brkkrdg/PySide6-Library-Management-System)
+![Issues](https://img.shields.io/github/issues/brkkrdg/PySide6-Library-Management-System)
+![Forks](https://img.shields.io/github/forks/brkkrdg/PySide6-Library-Management-System)
+![Stars](https://img.shields.io/github/stars/brkkrdg/PySide6-Library-Management-System)
 
-<p align="center">
-  <strong>PySide6</strong> kullanılarak geliştirilmiş basit bir Kütüphane Yönetim Sistemi. Qt için Python bağlaması olan PySide6, modern ve etkileyici bir kullanıcı arayüzü sunar.
-</p>
+PySide6 kullanılarak geliştirilmiş basit bir Kütüphane Yönetim Sistemi. Qt için Python bağlaması olan PySide6, modern ve etkileyici bir kullanıcı arayüzü sunar.
 
 ## Özellikler
 
@@ -24,7 +20,7 @@ Tabii, işte daha profesyonel ve klas bir README dosyası:
 
 ### Kurulum
 
-```sh
+```
 git clone https://github.com/brkkrdg/PySide6-Library-Management-System.git
 cd PySide6-Library-Management-System
 pip install -r requirements.txt
@@ -32,7 +28,7 @@ pip install -r requirements.txt
 
 ### Kullanım
 
-```sh
+```
 python GUI.py
 ```
 
@@ -45,4 +41,4 @@ Projeye katkı sağlamak isterseniz, lütfen bir konu açın veya bir çekme ist
 Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICENSE) dosyasına bakabilirsiniz.
 ```
 
-Bu README dosyası, projenin özelliklerini, kurulumunu, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini profesyonel ve görsel açıdan etkileyici bir şekilde sunar. Ayrıca, GitHub etiketleri kullanılarak proje hakkında ek bilgiler sağlanmıştır. Bu şekilde, projeniz daha profesyonel ve kullanıcı dostu bir izlenim bırakır.
+Bu Markdown biçimlendirmesi, GitHub'un otomatik olarak yorumlayabileceği ve düzgün bir şekilde görüntüleyebileceği bir formatta yazılmıştır. Projenizin özelliklerini, kurulumunu, kullanımını, katkıda bulunma yönergelerini ve lisans bilgisini basit ve düzenli bir şekilde gösterir. Ayrıca, projenizin lisansı ve diğer önemli bilgiler için gösterge bağlantıları (shields) eklenmiştir.
