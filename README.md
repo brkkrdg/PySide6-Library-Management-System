@@ -23,6 +23,7 @@ Feel free to explore the functionalities of the Library Management System!
 ## Screenshots
 
 <img width="712" alt="Ekran Resmi 2024-02-18 19 26 26" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/5d3d5643-38f7-43a4-9eae-bec99c066e61">
+<img width="668" alt="image" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/842f8a86-aa0e-4c52-8073-a666b2182030">
 <img width="412" alt="image" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/faa751c4-5ede-4a34-92d1-602b9b8848c2">
 <img width="412" alt="image" src="https://github.com/brkkrdg/PySide6-Library-Management-System/assets/99999403/df25a6dc-447c-4307-bc67-39a667a7e218">
 
